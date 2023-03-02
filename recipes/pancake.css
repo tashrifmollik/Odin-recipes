@@ -1,0 +1,27 @@
+body{
+    text-align: center;
+    background-color: antiquewhite;
+}
+h1{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+.image
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10%; 
+}
+
+.allign{
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.header{
+    text-align: center;
+    
+}

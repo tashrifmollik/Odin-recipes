@@ -1,7 +1,63 @@
-.center{
-    text-align: center;
-}
 body{
-    background-color: whitesmoke;
+    background-color:antiquewhite;
 }
 
+.pagetitel{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+}
+
+.menustyle{ /*BUTTON*/
+    /* border: none;*/
+   color: white;
+   padding: 5px 15px;
+   text-align: center;
+   text-decoration:none;
+   display: inline-block;
+   font-size: 10px;
+   margin: 4px 2px;
+   cursor: pointer;
+   background-color: #008cba;
+   border-radius: 8px;
+ }
+
+.list{/* DROP DOWN CONTENT STYLE(HIDDEN BY DEFAULT)*/
+    display: none;
+    position: absolute;
+    left: -30px;
+    background-color: #f1f1f1;
+    min-width: 100px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown { /* DROPDOWN CONTENT NEEDED TO BE POSITIONED*/
+    position: relative ;
+  
+    display: inline-block;
+  }
+
+
+.container{
+    height: 100px;
+    position: relative;
+    border: none green 3px;
+}
+.button{
+margin:0;
+position: absolute;
+top: 50%;
+left: 50%;
+-ms-transform: translate(-50%, -50%);
+transform: translate(-50%, -50%);
+}
+
+.list a {
+    color: black;
+    padding: 12px 20px;
+    text-decoration: none;
+    display: block;
+
+    }
+.dropdown:hover .list{display:block;}
